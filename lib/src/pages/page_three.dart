@@ -29,6 +29,7 @@ class NewPage3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(240, 94, 100,1.0),
         title: Text('pagina 3'),
         ),
         body: Container(
@@ -38,6 +39,7 @@ class NewPage3 extends StatelessWidget {
             itemCount: listUser.length,
             itemBuilder: (BuildContext context, int index){
               return Container(
+                color: Color.fromRGBO(249, 246, 239, 1.0),
                 child: Column(
                   children: <Widget>[
                     Container(
@@ -46,6 +48,7 @@ class NewPage3 extends StatelessWidget {
                       margin: const EdgeInsets.only(top: 10.0),
                       child: Center(
                         child: RaisedButton(
+                          color: Color.fromRGBO(42, 200, 194, 1.0),
                           child: Center(
                             child: Text('${listUser[index]}',
                             style: TextStyle(color: Colors.white)

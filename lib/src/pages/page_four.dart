@@ -8,9 +8,11 @@ class NewPage4 extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(240, 94, 100,1.0),
         title: Text('pagina 4'),
       ),
        body: Container(
+        color: Color.fromRGBO(249, 246, 239, 1.0),
         alignment: Alignment.topCenter,
         child: Column(children: <Widget>[
           SizedBox(
